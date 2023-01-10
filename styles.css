@@ -122,3 +122,25 @@ body {
     color: #1F2937;
     text-align: center;
 }
+
+.body .citation {
+    padding: 0 150px;
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+}
+
+.body .citation .text {
+    color:#1F2937;
+    font-style: italic;
+    font-size: 36px;
+    margin: 50px 0 18px 0;
+}
+
+.body .citation .author {
+    color: black;
+    text-align: end;
+    margin: 0 0 50px 0;
+    font-weight: bold;
+}
+
