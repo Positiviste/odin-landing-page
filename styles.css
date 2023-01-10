@@ -69,7 +69,7 @@ body {
 
 .header .body .left .sign-up {
     background-color: #3882f6;
-    color: #e5e7eb;
+    color: #f9faf8;
     font-size: 18px;
     padding: 5px 20px;
     border-radius: 7px;
@@ -144,3 +144,42 @@ body {
     font-weight: bold;
 }
 
+.body .bottom {
+    background-color: #f9faf8;
+}
+
+.body .bottom .pub {
+    background-color: #3882f6;
+    margin: 75px 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body .bottom .pub .left{
+    color: #f9faf8;
+}
+
+.body .bottom .pub .left .title {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: -8px;
+}
+
+.body .bottom .pub button{
+    color: #f9faf8;
+    border-color: #f9faf8;
+    border-radius: 7px;
+    background-color: #3882f6;
+    border-width: 3px;
+    font-size: 18px;
+    padding: 5px 20px;
+    font-weight: bolder;
+    border-style: solid;
+    align-self: center;
+}
+
+body > .bottom {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    text-align: center;
+}
