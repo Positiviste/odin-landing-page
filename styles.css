@@ -100,7 +100,7 @@ body {
 
 .body .top .elements {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -113,7 +113,12 @@ body {
 }
 
 .body .top .elements .element img {
-    padding: 50px;
+    padding: 75px;
     border: 3px solid #3882f6;
     border-radius: 15px;
+}
+
+.body .top .elements .element p {
+    color: #1F2937;
+    text-align: center;
 }
