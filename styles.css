@@ -1,0 +1,87 @@
+* {
+    font-family: Roboto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: stretch;
+}
+
+.header {
+    flex: 1 0 300;
+    display: flex;
+    padding: 10px 100px;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.header .top {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .top .logo {
+    flex:none;
+    color: #f9faf8;
+    font-size: 24px;
+    margin-right: 50px;
+}
+
+.header .top .links a {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.header .body {
+    margin-top: 50px;
+    display: flex;
+    color: #f9faf8;
+    gap: 10px;
+}
+
+.header .body .left,
+.header .body .right {
+    flex: 1 0 100px;
+}
+
+.header .body .left .title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+
+.header .body .left .text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header .body .left .sign-up {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 7px;
+    font-weight: bolder;
+}
+
+
+.header .body .right {
+    display: flex;
+    background-color: #e5e7eb;
+    color: #1F2937;
+    align-items: center;
+    text-align: center;
+}
+
